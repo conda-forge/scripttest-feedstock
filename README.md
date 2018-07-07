@@ -14,14 +14,15 @@ Summary: Helper to test command-line scripts.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/scripttest-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/scripttest-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/scripttest-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/scripttest-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/scripttest-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/scripttest-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/scripttest-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/scripttest-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/scripttest/badges/version.svg)](https://anaconda.org/conda-forge/scripttest)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/scripttest/badges/downloads.svg)](https://anaconda.org/conda-forge/scripttest)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-scripttest-green.svg)](https://anaconda.org/conda-forge/scripttest) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/scripttest.svg)](https://anaconda.org/conda-forge/scripttest) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/scripttest.svg)](https://anaconda.org/conda-forge/scripttest) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/scripttest.svg)](https://anaconda.org/conda-forge/scripttest) |
 
 Installing scripttest
 =====================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
